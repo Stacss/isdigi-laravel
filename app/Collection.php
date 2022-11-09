@@ -14,5 +14,5 @@ class Collection extends Model
     public function goods(){
         return $this->hasMany(Goods::class);
     }
-    
+
 }
